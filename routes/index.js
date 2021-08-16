@@ -19,7 +19,6 @@ router.get('/', function(req, res, next) {
       }
       const content = data;
 
-      // Invoke the next step here however you like
       console.log(content);   // Put all of the code here (not the best solution)
       res.render('index', { title: 'CTU eOffice', data: content });
       });
